@@ -41,3 +41,5 @@ Press `q` to quit. Unknown faces are shown in red; known faces in green.
 ### Notes
 - LBPH confidence is a distance; we convert it to a rough percentage. Tweak `--conf` (default 75) if you see false positives.
 - Ensure you installed **opencv-contrib-python** (not just `opencv-python`) for the `cv2.face` module.
+
+the results can vary based on the amount of images you have trained the model with and the ideal number would be 300-500
